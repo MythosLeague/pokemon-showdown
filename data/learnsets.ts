@@ -6416,6 +6416,8 @@ export const BattleLearnsets: {[speciesid: string]: LearnsetData} = {
 			venoshock: ["7M", "6M", "5M"],
 			worryseed: ["7T", "6T", "5T", "4T"],
 			xscissor: ["8V", "7M", "7L66", "6M", "6L66", "5M", "5L66", "4M", "4L55"],
+			shadowclaw: ["8L1"]
+			shadowsneak: ["8L1"]
 		},
 		encounters: [
 			{generation: 1, level: 13},
@@ -10651,7 +10653,7 @@ export const BattleLearnsets: {[speciesid: string]: LearnsetData} = {
 			lightscreen: ["8V", "7M", "7L13", "6M", "5M", "4M"],
 			lockon: ["7L41", "7V", "6L41", "5L30", "4L27", "3L32"],
 			magiccoat: ["7T", "6T", "5T", "4T"],
-			magnetbomb: ["7L11", "6L17", "5L18", "4L30"],
+			magnetbomb: ["7L11", "6L17", "5L33", "4L30"],
 			magnetrise: ["7T", "7L43", "6T", "6L43", "5T", "5L49", "4T", "4L46"],
 			metalsound: ["7L25", "6L25", "5L1", "5D", "4L1", "3L1"],
 			mimic: ["7V", "3T"],
@@ -12802,6 +12804,11 @@ export const BattleLearnsets: {[speciesid: string]: LearnsetData} = {
 			whirlpool: ["8M", "7V", "4M"],
 			wideguard: ["8L1", "7L1", "6L1", "5L1"],
 			xscissor: ["8M", "8V", "7M", "6M", "5M", "4M"],
+			recover	recover: ["8L1"]
+			spikes: ["8L1"]
+			toxicspikes: ["8L1"]
+			recover: ["8L1"]
+			closecombat: ["8L1"]
 		},
 		encounters: [
 			{generation: 1, level: 15},
@@ -17000,6 +17007,7 @@ export const BattleLearnsets: {[speciesid: string]: LearnsetData} = {
 			toxic: ["7M", "6M", "5M", "4M"],
 			voltswitch: ["7M", "6M", "5M"],
 			wildcharge: ["7M", "6M", "5M"],
+			closecombat: ["8L1"]
 		},
 		eventData: [
 			{generation: 4, level: 50, gender: "M", nature: "Adamant", moves: ["thunderpunch", "icepunch", "crosschop", "earthquake"], pokeball: "pokeball"},
@@ -18914,6 +18922,7 @@ export const BattleLearnsets: {[speciesid: string]: LearnsetData} = {
 			waterpulse: ["7T", "6T", "4M", "3M"],
 			whirlpool: ["7V", "4M"],
 			withdraw: ["8V", "7L1", "7V", "6L1", "5L1", "4L1", "3L1"],
+			powergem: ["8L1"]
 		},
 	},
 	kabuto: {
@@ -20775,6 +20784,7 @@ export const BattleLearnsets: {[speciesid: string]: LearnsetData} = {
 			toxic: ["7M", "7V", "6M", "5M", "4M", "3M"],
 			workup: ["7M"],
 			worryseed: ["7T", "6T", "5T", "4T"],
+			earthpower: ["8L1"]
 		},
 		eventData: [
 			{generation: 6, level: 50, isHidden: true, moves: ["solarbeam", "sunnyday", "synthesis", "bodyslam"], pokeball: "pokeball"},
@@ -42371,6 +42381,12 @@ export const BattleLearnsets: {[speciesid: string]: LearnsetData} = {
 			uproar: ["7T", "6T", "5T", "4T"],
 			venoshock: ["7M", "6M", "5M"],
 			worryseed: ["7T", "6T", "5T", "4T"],
+			spore: ["8L1"]
+			strengthsap: ["8L1"]
+			recover: ["8L1"]
+			spikes: ["8L1"]
+			toxicspikes: ["8L1"]
+			uturn: ["8L1"]
 		},
 	},
 	wormadamsandy: {
@@ -42436,6 +42452,10 @@ export const BattleLearnsets: {[speciesid: string]: LearnsetData} = {
 			toxic: ["7M", "6M", "5M", "4M"],
 			uproar: ["7T", "6T", "5T", "4T"],
 			venoshock: ["7M", "6M", "5M"],
+			recover: ["8L1"]
+			spikes: ["8L1"]
+			toxicspikes: ["8L1"]
+			uturn: ["8L1"]
 		},
 	},
 	wormadamtrash: {
@@ -42499,6 +42519,14 @@ export const BattleLearnsets: {[speciesid: string]: LearnsetData} = {
 			toxic: ["7M", "6M", "5M", "4M"],
 			uproar: ["7T", "6T", "5T", "4T"],
 			venoshock: ["7M", "6M", "5M"],
+			recover: ["8L1"]
+			spikes: ["8L1"]
+			toxicspikes: ["8L1"]
+			uturn: ["8L1"]
+			mirrorcoat: ["8L1"]
+			counter: ["8L1"]
+			metalburst: ["8L1"]
+
 		},
 	},
 	mothim: {
@@ -54659,6 +54687,7 @@ export const BattleLearnsets: {[speciesid: string]: LearnsetData} = {
 			voltswitch: ["8M", "7M", "6M", "5M"],
 			wildcharge: ["8M", "7M", "6M", "5M"],
 			zapcannon: ["8L48", "7L66", "6L1", "5L66"],
+			earthquake: ["8L1"]
 		},
 	},
 	tynamo: {
@@ -72651,6 +72680,7 @@ export const BattleLearnsets: {[speciesid: string]: LearnsetData} = {
 			waterfall: ["8M"],
 			whirlpool: ["8M"],
 			workup: ["8M"],
+			rocktomb: ["8L1"]
 		},
 	},
 	sinistea: {
@@ -73940,6 +73970,7 @@ export const BattleLearnsets: {[speciesid: string]: LearnsetData} = {
 			thunder: ["8M"],
 			thunderbolt: ["8M"],
 			thunderwave: ["8M"],
+			flamethrower: ["8L1"]
 		},
 	},
 	dreepy: {

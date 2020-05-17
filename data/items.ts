@@ -669,6 +669,21 @@ export const BattleItems: {[itemid: string]: ItemData} = {
 		isNonstandard: "Past",
 		desc: "Holder's Techno Blast is Fire type.",
 	},
+	butterfreeite: {
+		name: "Butterfreeite",
+		spritenum: 000,
+		megaStone: "Butterfree-Mega",
+		megaEvolves: "Butterfree",
+		itemUser: ["Butterfree"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
+		num: 1581,
+		gen: 6,
+		isNonstandard: "Past",
+		desc: "If held by an Butterfree, this item allows it to Mega Evolve in battle.",
+	},
 	cameruptite: {
 		name: "Cameruptite",
 		spritenum: 625,
@@ -802,6 +817,21 @@ export const BattleItems: {[itemid: string]: ItemData} = {
 		gen: 4,
 		isPokeball: true,
 		desc: "A rare Poke Ball that has been crafted to commemorate an occasion.",
+	},
+	cherrimite: {
+		name: "Cherrimite",
+		spritenum: 000,
+		megaStone: "Cherrim-Mega",
+		megaEvolves: "Cherrim",
+		itemUser: ["Cherrim"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
+		num: 1579,
+		gen: 6,
+		isNonstandard: "Past",
+		desc: "If held by an Cherrim, this item allows it to Mega Evolve in battle.",
 	},
 	chestoberry: {
 		name: "Chesto Berry",
@@ -996,6 +1026,21 @@ export const BattleItems: {[itemid: string]: ItemData} = {
 		num: 1112,
 		gen: 8,
 		desc: "Evolves Milcery into Alcremie when held and spun around.",
+	},
+	coalossite: {
+		name: "Coalossite",
+		spritenum: 000,
+		megaStone: "Coalossal-Mega",
+		megaEvolves: "Coalossal",
+		itemUser: ["Coalossal"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
+		num: 1580,
+		gen: 8,
+		isNonstandard: "Past",
+		desc: "If held by an Coalossal, this item allows it to Mega Evolve in battle.",
 	},
 	cobaberry: {
 		name: "Coba Berry",
@@ -1417,6 +1462,21 @@ export const BattleItems: {[itemid: string]: ItemData} = {
 		gen: 4,
 		desc: "Evolves Porygon2 into Porygon-Z when traded.",
 	},
+		duraludite: {
+		name: "Duraludite",
+		spritenum: 000,
+		megaStone: "Duraludon-Mega",
+		megaEvolves: "Duraludon",
+		itemUser: ["Duraludon"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
+		num: 1581,
+		gen: 8,
+		isNonstandard: "Past",
+		desc: "If held by an Duraludon, this item allows it to Mega Evolve in battle.",
+	},
 	durinberry: {
 		name: "Durin Berry",
 		spritenum: 114,
@@ -1514,7 +1574,6 @@ export const BattleItems: {[itemid: string]: ItemData} = {
 			basePower: 50,
 		},
 		onAfterBoost(boost, target, source, effect) {
-			if (this.activeMove?.id === 'partingshot') return;
 			let eject = false;
 			let i: BoostName;
 			for (i in boost) {
@@ -2121,6 +2180,21 @@ export const BattleItems: {[itemid: string]: ItemData} = {
 		num: 202,
 		gen: 3,
 		desc: "Raises holder's Defense by 1 stage when at 1/4 max HP or less. Single use.",
+	},
+	garbodite: {
+		name: "Garbodite",
+		spritenum: 000,
+		megaStone: "Garbodor-Mega",
+		megaEvolves: "Garbodor",
+		itemUser: ["Garbodor"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
+		num: 1583,
+		gen: 6,
+		isNonstandard: "Past",
+		desc: "If held by an Garbodor, this item allows it to Mega Evolve in battle.",
 	},
 	garchompite: {
 		name: "Garchompite",
@@ -2871,6 +2945,21 @@ export const BattleItems: {[itemid: string]: ItemData} = {
 		gen: 6,
 		isNonstandard: "Past",
 		desc: "If held by a Kangaskhan, this item allows it to Mega Evolve in battle.",
+	},
+	kinglerite: {
+		name: "Kinglerite",
+		spritenum: 000,
+		megaStone: "Kingler-Mega",
+		megaEvolves: "Kingler",
+		itemUser: ["Kingler"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
+		num: 1582,
+		gen: 6,
+		isNonstandard: "Past",
+		desc: "If held by an Kingler, this item allows it to Mega Evolve in battle.",
 	},
 	kingsrock: {
 		name: "King's Rock",
@@ -5497,6 +5586,21 @@ export const BattleItems: {[itemid: string]: ItemData} = {
 		gen: 3,
 		isNonstandard: "Past",
 		desc: "If held by a Latias/Latios, its Dragon- and Psychic-type moves have 1.2x power.",
+	},
+	spindite: {
+		name: "Spindite",
+		spritenum: 000,
+		megaStone: "Spinda-Mega",
+		megaEvolves: "Spinda",
+		itemUser: ["Spinda"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
+		num: 1584,
+		gen: 6,
+		isNonstandard: "Past",
+		desc: "If held by an Spinda, this item allows it to Mega Evolve in battle.",
 	},
 	spelltag: {
 		name: "Spell Tag",

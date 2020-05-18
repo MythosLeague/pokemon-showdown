@@ -5589,7 +5589,7 @@ export const BattleItems: {[itemid: string]: ItemData} = {
 	},
 	spindite: {
 		name: "Spindite",
-		spritenum: 000,
+		spritenum: 000
 		megaStone: "Spinda-Mega",
 		megaEvolves: "Spinda",
 		itemUser: ["Spinda"],

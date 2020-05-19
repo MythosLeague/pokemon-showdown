@@ -42518,7 +42518,7 @@ export const BattleLearnsets: {[speciesid: string]: LearnsetData} = {
 			uproar: ["7T", "6T", "5T", "4T"],
 			venoshock: ["7M", "6M", "5M"],
 			recover: ["8L1"],
-			spikes: ["8L1"],,
+			spikes: ["8L1"],
 			toxicspikes: ["8L1"],
 			uturn: ["8L1"],
 			mirrorcoat: ["8L1"],

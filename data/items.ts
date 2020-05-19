@@ -5587,21 +5587,6 @@ export const BattleItems: {[itemid: string]: ItemData} = {
 		isNonstandard: "Past",
 		desc: "If held by a Latias/Latios, its Dragon- and Psychic-type moves have 1.2x power.",
 	},
-	spindite: {
-		name: "Spindite",
-		spritenum: 000
-		megaStone: "Spinda-Mega",
-		megaEvolves: "Spinda",
-		itemUser: ["Spinda"],
-		onTakeItem(item, source) {
-			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
-			return true;
-		},
-		num: 1584,
-		gen: 6,
-		isNonstandard: "Past",
-		desc: "If held by an Spinda, this item allows it to Mega Evolve in battle.",
-	},
 	spelltag: {
 		name: "Spell Tag",
 		spritenum: 461,

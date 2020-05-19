@@ -2948,7 +2948,7 @@ export const BattleItems: {[itemid: string]: ItemData} = {
 	},
 	kinglerite: {
 		name: "Kinglerite",
-		spritenum: 000,
+		spritenum: 589,
 		megaStone: "Kingler-Mega",
 		megaEvolves: "Kingler",
 		itemUser: ["Kingler"],

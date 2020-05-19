@@ -671,7 +671,7 @@ export const BattleItems: {[itemid: string]: ItemData} = {
 	},
 	butterfreeite: {
 		name: "Butterfreeite",
-		spritenum: 000,
+		spritenum: 628,
 		megaStone: "Butterfree-Mega",
 		megaEvolves: "Butterfree",
 		itemUser: ["Butterfree"],
@@ -820,7 +820,7 @@ export const BattleItems: {[itemid: string]: ItemData} = {
 	},
 	cherrimite: {
 		name: "Cherrimite",
-		spritenum: 000,
+		spritenum: 613,
 		megaStone: "Cherrim-Mega",
 		megaEvolves: "Cherrim",
 		itemUser: ["Cherrim"],
@@ -1029,7 +1029,7 @@ export const BattleItems: {[itemid: string]: ItemData} = {
 	},
 	coalossite: {
 		name: "Coalossite",
-		spritenum: 000,
+		spritenum: 625,
 		megaStone: "Coalossal-Mega",
 		megaEvolves: "Coalossal",
 		itemUser: ["Coalossal"],
@@ -1464,7 +1464,7 @@ export const BattleItems: {[itemid: string]: ItemData} = {
 	},
 		duraludite: {
 		name: "Duraludite",
-		spritenum: 000,
+		spritenum: 618,
 		megaStone: "Duraludon-Mega",
 		megaEvolves: "Duraludon",
 		itemUser: ["Duraludon"],
@@ -2183,7 +2183,7 @@ export const BattleItems: {[itemid: string]: ItemData} = {
 	},
 	garbodite: {
 		name: "Garbodite",
-		spritenum: 000,
+		spritenum: 608,
 		megaStone: "Garbodor-Mega",
 		megaEvolves: "Garbodor",
 		itemUser: ["Garbodor"],

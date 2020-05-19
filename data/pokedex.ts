@@ -244,7 +244,7 @@ export const BattlePokedex: {[speciesid: string]: SpeciesData} = {
 		prevo: "Metapod",
 		evoLevel: 10,
 		eggGroups: ["Bug"],
-		otherFormes: ["Butterfree-Mega" "Butterfree-Gmax"],
+		otherFormes: ["Butterfree-Mega", "Butterfree-Gmax"],
 		formeOrder: ["Butterfree", "Butterfree-Mega", "Butterfree-Gmax"],
    },
 	butterfreemega: {
